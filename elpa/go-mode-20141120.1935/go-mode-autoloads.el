@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads (go-download-play godoc gofmt-before-save go-mode)
-;;;;;;  "go-mode" "go-mode.el" (21618 38564 0 0))
+;;;;;;  "go-mode" "go-mode.el" (21618 40088 0 0))
 ;;; Generated autoloads from go-mode.el
 
 (autoload 'go-mode "go-mode" "\
@@ -88,7 +88,7 @@ buffer. Tries to look for a URL at point.
 
 ;;;***
 
-;;;### (autoloads nil nil ("go-mode-pkg.el") (21618 38564 798352
+;;;### (autoloads nil nil ("go-mode-pkg.el") (21618 40088 664664
 ;;;;;;  0))
 
 ;;;***
