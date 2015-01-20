@@ -4,7 +4,7 @@
 
 ;; Define package repositories
 (require 'package)
-(require 'nodejs-repl)
+;(require 'nodejs-repl)
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (add-to-list 'package-archives
