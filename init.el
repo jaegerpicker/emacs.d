@@ -4,16 +4,22 @@
 
 ;; Define package repositories
 (require 'package)
+(require 'nodejs-repl)
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (add-to-list 'package-archives
              '("tromey" . "http://tromey.com/elpa/") t)
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.org/packages/") t)
+             '("melpa" . "http://melpa.org/packages/") t) 
+(add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
 
-;; (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-;;                          ("marmalade" . "http://marmalade-repo.org/packages/")
-;;                          ("melpa" . "http://melpa-stable.milkbox.net/packages/")))
+(add-hook 'js-mode-hook 'js3-minor-mode)
+(add-hook 'js3-mode-hook 'ac-js3-mode)
+;(define-key js-mode-map "{" 'paredit-open-curly)
+;(define-key js-mode-map "}" 'paredit-close-curly-and-newline)
+(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
+                          ("marmalade" . "http://marmalade-repo.org/packages/")
+                          ("melpa" . "http://melpa-stable.milkbox.net/packages/")))
 
 
 ;; Load and activate emacs packages. Do this first so that the

@@ -1,0 +1,52 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/shawn/Documents/sample_code/Cyborg_src/src/main/java/com/mojang/" . "mojam/")
+ ("/Users/shawn/Documents/sample_code/Cyborg_src/src/main/java/com/" . "mojang/")
+ ("/Users/shawn/Documents/sample_code/Cyborg_src/src/main/java/" . "com/")
+ ("/Users/shawn/Documents/sample_code/Cyborg_src/src/main/" . "java/")
+ ("/Users/shawn/Documents/sample_code/Cyborg_src/src/" . "main/")
+ ("/Users/shawn/Documents/sample_code/Cyborg_src/" . "src/")
+ ("/Users/shawn/Documents/sample_code/" . "Cyborg_src/")
+ ("/Users/shawn/Documents/" . "sample_code/")
+ ("/Users/shawn/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/shawn/Documents/sample_code/Cyborg_src/src/main/java/com/mojang/mojam/"
+ "/Users/shawn/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "MainClass.java"
+ ".zshrc"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/shawn/Documents/sample_code/Cyborg_src/src/main/java/com/mojang/mojam/" (20777 36918 0 0) "world/" "util/" "StartScreenState.java" "sound/" "MainClass.java" "LogoState.java" "gui/" "GameStateController.java" "GameState.java" "GameOverState.java" "entity/" "data/" "Camera.java" "../" "./")
+
+ ("/Users/shawn/Documents/sample_code/Cyborg_src/src/main/java/com/mojang/" (20777 36918 0 0) "mojam/" "../" "./")
+
+ ("/Users/shawn/Documents/sample_code/Cyborg_src/src/main/java/com/" (20777 36918 0 0) "mojang/" "../" "./")
+
+ ("/Users/shawn/Documents/sample_code/Cyborg_src/src/main/java/" (20777 36918 0 0) "com/" "../" "./")
+
+ ("/Users/shawn/Documents/sample_code/Cyborg_src/src/main/" (20777 36918 0 0) "java/" "../" "./")
+
+ ("/Users/shawn/Documents/sample_code/Cyborg_src/src/" (20777 36918 0 0) "test/" "main/" "../" "./")
+
+ ("/Users/shawn/Documents/sample_code/Cyborg_src/" (21665 604 0 0) "src/" "settings.gradle" "res/" "README.md" "lib/" "cyborghippo.png" "build.gradle" ".gitignore" "../" "./")
+
+ ("/Users/shawn/Documents/sample_code/" (21665 1113 0 0) "EndlessNuclearKittens.src/" "Cyborg_src/" "battlefrogs_source/" "../" "./")
+
+ ("/Users/shawn/Documents/" (21665 1113 0 0) "sample_code/" "CODE/" ".localized" "../" "./")
+
+ ("/Users/shawn/" (21665 3574 0 0) "VirtualBox VMs/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "go/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-Shawn’s MacBook Pro-5.0.5" ".virtualenvs/" ".Trash/" ".ssh/" ".oh-my-zsh/" ".npm/" ".lein/" ".gem/" ".emacs.d/" ".DS_Store" ".CFUserTextEncoding" ".bash_history" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
