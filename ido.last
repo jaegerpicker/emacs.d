@@ -15,18 +15,29 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/shawn/Documents/CODE/nodeschool.ioSamples/javascripting/"
  "/Users/shawn/Documents/sample_code/Cyborg_src/src/main/java/com/mojang/mojam/"
  "/Users/shawn/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "MainClass.java"
- ".zshrc"
+ "function-arguments.js"
+ "functions.js"
+ "object-properties.js"
+ "objects.js"
+ "accessing-array-values.js"
+ "looping-through-arrays.js"
+ "array-filtering.js"
+ "arrays.js"
+ "for-loops.js"
+ "if-statement.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/shawn/Documents/CODE/nodeschool.ioSamples/javascripting/" (21738 38411 0 0) "variables.js" "strings.js" "string-length.js" "rounding-numbers.js" "revising-strings.js" "objects.js" "object-properties.js" "numbers.js" "number-to-string.js" "looping-through-arrays.js" "introduction.js" "if-statement.js" "functions.js" "function-arguments.js" "for-loops.js" "arrays.js" "array-filtering.js" "accessing-array-values.js" "../" "./")
+
  ("/Users/shawn/Documents/sample_code/Cyborg_src/src/main/java/com/mojang/mojam/" (20777 36918 0 0) "world/" "util/" "StartScreenState.java" "sound/" "MainClass.java" "LogoState.java" "gui/" "GameStateController.java" "GameState.java" "GameOverState.java" "entity/" "data/" "Camera.java" "../" "./")
 
  ("/Users/shawn/Documents/sample_code/Cyborg_src/src/main/java/com/mojang/" (20777 36918 0 0) "mojam/" "../" "./")
