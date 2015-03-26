@@ -4,9 +4,9 @@
 
 ;; Define package repositories
 (add-to-list 'load-path "~/.emacs.d/customizations")
-(let ((benchmark-init.el "~/.emacs.d/customizations/benchmark-init.el"))
-    (when (file-exists-p benchmark-init.el)
-          (load benchmark-init.el)))
+;(let ((benchmark-init.el "~/.emacs.d/customizations/benchmark-init.el"))
+;    (when (file-exists-p benchmark-init.el)
+;          (load benchmark-init.el)))
 ;(load-file "~/emacs-for-python/epy-init.el")
 (require 'package)
 (require 'nodejs-repl)
